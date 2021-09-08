@@ -30,15 +30,11 @@
         "variant_picker": {
           "type": "variant_picker",
           "settings": {
+            "picker_type": "button"
           }
         },
         "quantity_selector": {
           "type": "quantity_selector",
-          "settings": {
-          }
-        },
-        "buy_buttons": {
-          "type": "buy_buttons",
           "settings": {
           }
         },
@@ -50,6 +46,16 @@
         "share": {
           "type": "share",
           "settings": {
+            "share_label": "Share"
+          }
+        },
+        "5cb0993e-06ac-443b-b304-d786b3076931": {
+          "type": "collapsible_tab",
+          "settings": {
+            "heading": "Delivery available",
+            "content": "<p>This<\/p><p>That<\/p><p>Something<\/p><p>Another thing<\/p>",
+            "page": "",
+            "icon": "box"
           }
         }
       },
@@ -60,16 +66,26 @@
         "price",
         "variant_picker",
         "quantity_selector",
-        "buy_buttons",
         "description",
-        "share"
+        "share",
+        "5cb0993e-06ac-443b-b304-d786b3076931"
       ],
       "settings": {
+        "enable_sticky_info": true,
+        "hide_variants": false,
+        "enable_video_looping": false
       }
     },
     "product-recommendations": {
       "type": "product-recommendations",
       "settings": {
+        "heading": "You may also like",
+        "image_ratio": "adapt",
+        "show_secondary_image": false,
+        "add_image_padding": false,
+        "show_image_outline": true,
+        "show_vendor": false,
+        "show_rating": false
       }
     }
   },
