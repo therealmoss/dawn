@@ -49,32 +49,32 @@
       "footer": {
         "type": "footer",
         "blocks": {
+          "footer-1": {
+            "type": "text",
+            "settings": {
+              "heading": "Flour Baby Bakery by Zoe",
+              "subtext": "<p>✰ Self-taught baker & cake artist<br\/>✰ 5 star hygiene rating<br\/>✰ DM to order bespoke cakes, cookies & buns<br\/>✰ North London based<\/p>"
+            }
+          },
           "footer-0": {
             "type": "link_list",
             "settings": {
               "heading": "Quick links",
               "menu": "footer"
             }
-          },
-          "footer-1": {
-            "type": "text",
-            "settings": {
-              "heading": "Heading",
-              "subtext": "<p>Share store details, promotions, or brand content with your customers.<\/p>"
-            }
           }
         },
         "block_order": [
-          "footer-0",
-          "footer-1"
+          "footer-1",
+          "footer-0"
         ],
         "settings": {
-          "color_scheme": "background-1",
+          "color_scheme": "background-2",
           "newsletter_enable": true,
           "newsletter_heading": "Subscribe to our emails",
           "show_social": true,
-          "enable_country_selector": true,
-          "enable_language_selector": true,
+          "enable_country_selector": false,
+          "enable_language_selector": false,
           "payment_enable": true
         }
       }
