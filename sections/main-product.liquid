@@ -337,7 +337,7 @@
   
               <div class="contact page-width page-width--narrow spaced-section">
                 <h2 class="title">{{ section.settings.heading | escape }}</h2>
-                {%- form 'contact', id: 'ContactForm' -%}
+                {%- form 'contact' -%}
                   {%- if form.posted_successfully? -%}
                     <div class="form-status form-status-list form__message" tabindex="-1" autofocus>{% render 'icon-success' %} {{ 'templates.contact.form.post_success' | t }}</div>
                   {%- elsif form.errors -%}
@@ -357,6 +357,17 @@
                       <input class="field__input" autocomplete="name" type="text" id="ContactForm-name" name="contact[{{ 'templates.contact.form.name' | t }}]" value="{% if form.name %}{{ form.name }}{% elsif customer %}{{ customer.name }}{% endif %}" placeholder="{{ 'templates.contact.form.name' | t }}">
                       <label class="field__label" for="ContactForm-name">{{ 'templates.contact.form.name' | t }}</label>
                     </div>
+                    
+                    <div class="product-title" style="display: none;">
+
+                      <label for="product-title"> Product title</label>
+                      <input class="field__input" id="ContactForm-title" type="text" name="{{ product.title }}" value="{{ product.title }}" placeholder="{{ product.title }}">
+
+                      <input class="field__input" autocomplete="name" type="text" id="ContactForm-name" name="contact[{{ 'templates.contact.form.name' | t }}]" value="{% if form.name %}{{ form.name }}{% elsif customer %}{{ customer.name }}{% endif %}" placeholder="{{ 'templates.contact.form.name' | t }}">
+                      <label class="field__label" for="ContactForm-title">{{ 'templates.contact.form.name' | t }}</label>
+
+                    </div>
+
                     <div class="field field--with-error">
                       <input
                         autocomplete="email"
