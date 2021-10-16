@@ -357,12 +357,17 @@
                       <input class="field__input" autocomplete="name" type="text" id="ContactForm-name" name="contact[{{ 'templates.contact.form.name' | t }}]" value="{% if form.name %}{{ form.name }}{% elsif customer %}{{ customer.name }}{% endif %}" placeholder="{{ 'templates.contact.form.name' | t }}">
                       <label class="field__label" for="ContactForm-name">{{ 'templates.contact.form.name' | t }}</label>
                     </div>
+
+                    {% comment %} Injecting product page info into email {% endcomment %}
                     
                     <div class="product-title" style="display: none;">
-                     
                       <label for="Product">Product</label>
                       <input type="text" name="contact[Product]" value="{{ product.title }}"/>
+                    </div>
 
+                    <div class="price" style="display: none;">
+                      <label for="Price">Price</label>
+                      <input type="text" name="contact[Price]" value="{{ product.price | money }}"/>
                     </div>
 
                     <div class="field field--with-error">
@@ -391,10 +396,18 @@
                       {%- endif -%}
                     </div>
                   </div>
+
                   <div class="field">
                     <input type="tel" id="ContactForm-phone" class="field__input" autocomplete="tel" name="contact[{{ 'templates.contact.form.phone' | t }}]" pattern="[0-9\-]*" value="{% if form.phone %}{{ form.phone }}{% elsif customer %}{{ customer.phone }}{% endif %}" placeholder="{{ 'templates.contact.form.phone' | t }}">
                     <label class="field__label" for="ContactForm-phone">{{ 'templates.contact.form.phone' | t }}</label>
                   </div>
+
+                  <div class="field">
+                    <script src="{{ 'date-today-onwards.js' | asset_url }}" defer="defer"></script>
+                    <input class="field__input" id="date" type="date" name="contact[Date required by]"/>
+                    <label class="field__label" for="date">Date requred by:</label>
+                  </div>
+
                   <div class="field">
                     <textarea
                       rows="10"

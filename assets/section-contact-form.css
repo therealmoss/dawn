@@ -45,3 +45,7 @@
 .grecaptcha-badge {
   visibility: hidden;
 }
+
+#date {
+  font-family: "Geomanist";
+}
