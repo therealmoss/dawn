@@ -1,176 +1,106 @@
 {
   "sections": {
-    "1631140907b4e5bdc5": {
+    "image_banner": {
       "type": "image-banner",
+      "settings": {
+        "desktop_text_box_position": "flex-end"
+      },
       "blocks": {
-        "1631140907b4e5bdc5-0": {
+        "heading": {
           "type": "heading",
           "settings": {
-            "heading": "I hope you like cake",
-            "heading_size": "medium"
+            "heading": "Talk about your brand"
           }
         },
-        "70194d5c-e6b9-41df-92eb-a18173015f09": {
+        "button": {
           "type": "buttons",
           "settings": {
-            "button_label_1": "Shop now",
-            "button_link_1": "",
-            "button_style_secondary_1": false,
-            "button_label_2": "",
-            "button_link_2": "",
-            "button_style_secondary_2": false
+            "button_label_1": "Shop all",
+            "button_link_1": "shopify://collections/all",
+            "button_label_2": ""
           }
         }
       },
       "block_order": [
-        "1631140907b4e5bdc5-0",
-        "70194d5c-e6b9-41df-92eb-a18173015f09"
-      ],
-      "settings": {
-        "image": "shopify:\/\/shop_images\/freshly-baked-lemon-cake-with-powdered-sugar.jpg",
-        "adapt_height_first_image": false,
-        "desktop_text_box_position": "center",
-        "show_text_box": true,
-        "image_overlay_opacity": 0,
-        "color_scheme": "accent-1",
-        "stack_images_on_mobile": true,
-        "show_text_below": true
-      }
+        "heading",
+        "button"
+      ]
     },
-    "1631137956f5d78117": {
-      "type": "multicolumn",
+    "rich_text": {
+      "type": "rich-text",
       "blocks": {
-        "1631137956f5d78117-0": {
-          "type": "column",
-          "settings": {
-            "title": "100% gluten free cakes",
-            "text": "<p>Delivered across London<\/p>"
-          }
+        "heading": {
+          "type": "heading"
         },
-        "1631137956f5d78117-1": {
-          "type": "column",
-          "settings": {
-            "title": "UK delivery",
-            "text": "<p>On certain products<\/p>"
-          }
+        "text": {
+          "type": "text"
         },
-        "1631137956f5d78117-2": {
-          "type": "column",
-          "settings": {
-            "title": "Cake shop",
-            "text": "<p>Zoe's house bitches<\/p>"
-          }
-        },
-        "6dcb9b29-f1ea-4a60-a5e5-936c1a42ce44": {
-          "type": "column",
-          "settings": {
-            "title": "Bespoke bakes",
-            "text": "<p>Perfect for any occasion<\/p>"
-          }
+        "button": {
+          "type": "button"
         }
       },
       "block_order": [
-        "1631137956f5d78117-0",
-        "1631137956f5d78117-1",
-        "1631137956f5d78117-2",
-        "6dcb9b29-f1ea-4a60-a5e5-936c1a42ce44"
-      ],
+        "heading",
+        "text",
+        "button"
+      ]
+    },
+    "featured_products": {
+      "type": "featured-collection",
       "settings": {
-        "title": "",
-        "image_width": "half",
-        "image_ratio": "adapt",
-        "column_alignment": "center",
-        "background_style": "none",
-        "button_label": "",
-        "button_link": "",
-        "swipe_on_mobile": true
+        "title": "Featured products",
+        "collection": "all",
+        "image_ratio": "square"
       }
     },
-    "163114091417f8a378": {
+    "collage": {
       "type": "collage",
       "blocks": {
-        "163114091417f8a378-2": {
-          "type": "collection",
-          "settings": {
-            "collection": "flour-baby-exclusives",
-            "image_padding": false,
-            "color_scheme": "background-1"
-          }
+        "video": {
+          "type": "video"
         },
-        "a7d41efe-4f4e-45f8-a0be-e4f212b99e63": {
-          "type": "collection",
-          "settings": {
-            "collection": "the-classics",
-            "image_padding": false,
-            "color_scheme": "background-1"
-          }
+        "product": {
+          "type": "product"
         },
-        "19439e90-2db6-4240-859c-f283426eaffc": {
-          "type": "collection",
-          "settings": {
-            "collection": "cookies",
-            "image_padding": false,
-            "color_scheme": "background-1"
-          }
+        "collection": {
+          "type": "collection"
         }
       },
       "block_order": [
-        "163114091417f8a378-2",
-        "a7d41efe-4f4e-45f8-a0be-e4f212b99e63",
-        "19439e90-2db6-4240-859c-f283426eaffc"
-      ],
-      "settings": {
-        "heading": "Our collections",
-        "desktop_layout": "left",
-        "mobile_layout": "collage"
-      }
+        "video",
+        "product",
+        "collection"
+      ]
     },
-    "16311412548e411241": {
+    "video": {
+      "type": "video"
+    },
+    "multi_column": {
       "type": "multicolumn",
       "blocks": {
-        "16311412548e411241-0": {
-          "type": "column",
-          "settings": {
-            "title": "Sarah",
-            "text": "<p>Wow I must say these cakes are some good shit. I ordered a cake and got two whole cakes, that's what I'm talking about.<\/p>"
-          }
+        "column1": {
+          "type": "column"
         },
-        "16311412548e411241-1": {
-          "type": "column",
-          "settings": {
-            "title": "Chris",
-            "text": "<p>I love cake. That's why I went to Zoe – she made me one and I stuck it right in my gob. Lovely Jubbly. <\/p>"
-          }
+        "column2": {
+          "type": "column"
         },
-        "16311412548e411241-2": {
-          "type": "column",
-          "settings": {
-            "title": "Raj",
-            "text": "<p>I love cake, but not as much as I love cookies. I ordered 400 cookies and Zoe delivered the goods. <\/p>"
-          }
+        "column3": {
+          "type": "column"
         }
       },
       "block_order": [
-        "16311412548e411241-0",
-        "16311412548e411241-1",
-        "16311412548e411241-2"
-      ],
-      "settings": {
-        "title": "Customer reviews",
-        "image_width": "full",
-        "image_ratio": "adapt",
-        "column_alignment": "left",
-        "background_style": "secondary",
-        "button_label": "",
-        "button_link": "",
-        "swipe_on_mobile": true
-      }
+        "column1",
+        "column2",
+        "column3"
+      ]
     }
   },
   "order": [
-    "1631140907b4e5bdc5",
-    "1631137956f5d78117",
-    "163114091417f8a378",
-    "16311412548e411241"
+    "image_banner",
+    "rich_text",
+    "featured_products",
+    "collage",
+    "video",
+    "multi_column"
   ]
 }
