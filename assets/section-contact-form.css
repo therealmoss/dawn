@@ -1,3 +1,7 @@
+.contact {
+  padding: 0;
+}
+
 .contact img {
   max-width: 100%;
 }
@@ -40,4 +44,8 @@
 
 .grecaptcha-badge {
   visibility: hidden;
+}
+
+#date {
+  font-family: "Geomanist";
 }

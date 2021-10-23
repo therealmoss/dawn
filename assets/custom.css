@@ -1,0 +1,17 @@
+/* Created by Velocity Stack Ltd */
+
+/* top nav styling */
+
+.header__menu-item, .list-menu__item {    
+    font-size: 1.2em;
+    text-transform: uppercase;
+    letter-spacing: 0.2em;
+}
+
+.header__menu-item {
+    padding: 1.2em;
+}
+
+.menu-drawer__navigation {
+    padding: 3rem 0 !important;
+}
