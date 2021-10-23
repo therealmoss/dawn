@@ -394,8 +394,15 @@
                     </div>
 
                     <div class="price" style="display: none;">
-                      <label for="Price">Price</label>
+                      <label for="price">Price</label>
                       <input type="text" name="contact[Price]" value="{{ product.price | money }}"/>
+                    </div>
+
+                    <div class="variants" style="display: none;">
+                      <label for="variants">Variants</label>
+                      {% for product_option in product.options_with_values %}
+                        <input type="text" name="contact[Price]" value="{{ product_option.name }}: {{ product_option.selected_value }}"/>
+                      {% endfor %}
                     </div>
 
                     <div class="field field--with-error">
