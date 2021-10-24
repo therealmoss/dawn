@@ -712,6 +712,20 @@ class VariantRadios extends VariantSelects {
     this.options = fieldsets.map((fieldset) => {
       return Array.from(fieldset.querySelectorAll('input')).find((radio) => radio.checked).value;
     });
+
+    // Adding variant selections to product order form
+    var variantTitle = document.getElementsByClassName('form__label');
+    var arrayLength = this.options.length;
+    var variantValues = "";
+    for (var i = 0; i < arrayLength; i++) {
+        variantValues += " | " + variantTitle[i].innerText + ": " + this.options[i];
+    }
+    console.log(variantValues)
+    document.getElementById('contact[Variants]').value = variantValues;
+
+    // Adding variant price to product order form
+    var variantPrice = document.getElementsByClassName('price-item price-item--regular');
+    document.getElementById('contact[Price]').value = (variantPrice[0].innerText);
   }
 }
 

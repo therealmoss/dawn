@@ -395,17 +395,17 @@
 
                     <div class="price" style="display: none;">
                       <label for="price">Price</label>
-                      <input type="text" name="contact[Price]" value="{{ product.price | money }}"/>
+                      <input type="text" name="contact[Price]" id="contact[Price]" value="{{ product.price | money }}"/>
                     </div>
 
-                    <div class="variants">
+                    <div class="variants" style="display: none;">
                       <label for="variants">Variants</label>
                       {% capture variant_content %}
                         {% for product_option in product.options_with_values %}
                           {{ product_option.name }}: {{ product_option.selected_value }}
                         {% endfor %}
                       {% endcapture %}
-                      <input type="text" name="contact[Variants]" value="{{ variant_content }}"/>
+                      <input type="text" name="contact[Variants]" id="contact[Variants]" value="{{ variant_content }}"/>
                     </div>
 
                     <div class="field field--with-error">
