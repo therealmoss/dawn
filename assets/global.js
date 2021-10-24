@@ -720,7 +720,6 @@ class VariantRadios extends VariantSelects {
     for (var i = 0; i < arrayLength; i++) {
         variantValues += " | " + variantTitle[i].innerText + ": " + this.options[i];
     }
-    console.log(variantValues)
     document.getElementById('contact[Variants]').value = variantValues;
 
     // Adding variant price to product order form
