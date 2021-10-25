@@ -360,11 +360,11 @@
               </p>
             {%- endif -%}
 
-            {%- when 'product-contact-form' -%}
+            {%- when 'order-form' -%}
               {{ 'section-contact-form.css' | asset_url | stylesheet_tag }}
   
               <div class="contact page-width page-width--narrow spaced-section">
-                <h2 class="title">{{ section.settings.heading | escape }}</h2>
+                <h2 class="title">{{ block.settings.heading | escape }}</h2>
                 {%- form 'contact' -%}
                   {%- if form.posted_successfully? -%}
                     <div class="form-status form-status-list form__message" tabindex="-1" autofocus>{% render 'icon-success' %} {{ 'templates.contact.form.post_success' | t }}</div>
@@ -444,6 +444,10 @@
                     <script src="{{ 'date-today-onwards.js' | asset_url }}" defer="defer"></script>
                     <input class="field__input" id="date" type="date" name="contact[Date required by]"/>
                     <label class="field__label" for="date">Date requred by:</label>
+                  </div>
+
+                  <div class="field__label">
+                    <label class="field__label">{{ section.settings.caption }}</label>
                   </div>
 
                   <div class="field">
@@ -906,8 +910,8 @@
       ]
     },
     {
-      "type": "product-contact-form",
-      "name": "t:sections.main-product.blocks.product-contact-form.name",
+      "type": "order-form",
+      "name": "t:sections.main-product.blocks.order-form.name",
       "limit": 1,
       "settings": [
         {
@@ -915,6 +919,12 @@
           "id": "heading",
           "default": "Contact form",
           "label": "Heading"
+        },
+        {
+          "type": "text",
+          "id": "caption",
+          "default": "Tell us any important details about your order.",
+          "label": "Caption above comment box"
         }
       ]
     }

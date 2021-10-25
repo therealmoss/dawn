@@ -48,7 +48,7 @@
           }
         },
         "b1e18760-49b2-4c8b-a8f2-a32e0b04bb9a": {
-          "type": "product-contact-form",
+          "type": "order-form",
           "settings": {
             "heading": "Order form"
           }
