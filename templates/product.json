@@ -38,16 +38,10 @@
           "settings": {
           }
         },
-        "share": {
-          "type": "share",
-          "settings": {
-            "share_label": "Share"
-          }
-        },
         "5cb0993e-06ac-443b-b304-d786b3076931": {
           "type": "collapsible_tab",
           "settings": {
-            "heading": "Delivery available",
+            "heading": "FAQs",
             "content": "<p>This<\/p><p>That<\/p><p>Something<\/p><p>Another thing<\/p>",
             "page": "",
             "icon": "box"
@@ -56,7 +50,13 @@
         "b1e18760-49b2-4c8b-a8f2-a32e0b04bb9a": {
           "type": "product-contact-form",
           "settings": {
-            "heading": "Contact form"
+            "heading": "Order form"
+          }
+        },
+        "share": {
+          "type": "share",
+          "settings": {
+            "share_label": "Share"
           }
         }
       },
@@ -67,9 +67,9 @@
         "price",
         "variant_picker",
         "description",
-        "share",
         "5cb0993e-06ac-443b-b304-d786b3076931",
-        "b1e18760-49b2-4c8b-a8f2-a32e0b04bb9a"
+        "b1e18760-49b2-4c8b-a8f2-a32e0b04bb9a",
+        "share"
       ],
       "settings": {
         "enable_sticky_info": true,
