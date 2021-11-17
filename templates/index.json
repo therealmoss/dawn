@@ -44,29 +44,29 @@
         "1631137956f5d78117-0": {
           "type": "column",
           "settings": {
-            "title": "made with love",
-            "text": "<p>Delivered across London<\/p>"
+            "title": "North London based",
+            "text": "<p>Collection and delivery<\/p>"
           }
         },
         "1631137956f5d78117-1": {
           "type": "column",
           "settings": {
-            "title": "UK delivery",
+            "title": "Nationwide delivery",
             "text": "<p>On certain products<\/p>"
           }
         },
         "1631137956f5d78117-2": {
           "type": "column",
           "settings": {
-            "title": "Cake shop",
-            "text": "<p>Zoe's house bitches<\/p>"
+            "title": "top quality ingredients",
+            "text": "<p>Homemade jams and fillings<\/p>"
           }
         },
         "6dcb9b29-f1ea-4a60-a5e5-936c1a42ce44": {
           "type": "column",
           "settings": {
             "title": "Bespoke bakes",
-            "text": "<p>Perfect for any occasion<\/p>"
+            "text": "<p>Make your cake dreams a reality<\/p>"
           }
         }
       },
