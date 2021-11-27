@@ -27,7 +27,7 @@
         "70194d5c-e6b9-41df-92eb-a18173015f09"
       ],
       "settings": {
-        "image": "shopify:\/\/shop_images\/freshly-baked-lemon-cake-with-powdered-sugar.jpg",
+        "image": "shopify:\/\/shop_images\/Unknown-16.jpg",
         "image_height": "medium",
         "adapt_height_first_image": false,
         "desktop_text_box_position": "center",
@@ -44,29 +44,29 @@
         "1631137956f5d78117-0": {
           "type": "column",
           "settings": {
-            "title": "100% gluten free cakes",
-            "text": "<p>Delivered across London<\/p>"
+            "title": "North London based",
+            "text": "<p>Collection and delivery<\/p>"
           }
         },
         "1631137956f5d78117-1": {
           "type": "column",
           "settings": {
-            "title": "UK delivery",
+            "title": "Nationwide delivery",
             "text": "<p>On certain products<\/p>"
           }
         },
         "1631137956f5d78117-2": {
           "type": "column",
           "settings": {
-            "title": "Cake shop",
-            "text": "<p>Zoe's house bitches<\/p>"
+            "title": "top quality ingredients",
+            "text": "<p>Homemade jams and fillings<\/p>"
           }
         },
         "6dcb9b29-f1ea-4a60-a5e5-936c1a42ce44": {
           "type": "column",
           "settings": {
             "title": "Bespoke bakes",
-            "text": "<p>Perfect for any occasion<\/p>"
+            "text": "<p>Make your cake dreams a reality<\/p>"
           }
         }
       },
@@ -132,22 +132,22 @@
         "16311412548e411241-0": {
           "type": "column",
           "settings": {
-            "title": "Sarah",
-            "text": "<p>Wow I must say these cakes are some good shit. I ordered a cake and got two whole cakes, that's what I'm talking about.<\/p>"
+            "title": "Maria",
+            "text": "<p>\"I love that I don't have to explain how to decorate it, I just tell you who it's for and you have a perfect design.\"<\/p>"
           }
         },
         "16311412548e411241-1": {
           "type": "column",
           "settings": {
-            "title": "Chris",
-            "text": "<p>I love cake. That's why I went to Zoe – she made me one and I stuck it right in my gob. Lovely Jubbly. <\/p>"
+            "title": "Harriet",
+            "text": "<p>\"100% best red velvet in London\"<\/p>"
           }
         },
         "16311412548e411241-2": {
           "type": "column",
           "settings": {
-            "title": "Raj",
-            "text": "<p>I love cake, but not as much as I love cookies. I ordered 400 cookies and Zoe delivered the goods. <\/p>"
+            "title": "Ashleigh",
+            "text": "<p>\"I couldn't fault this cake even if I tried; it was an absolute masterpiece.\"<\/p>"
           }
         }
       },
