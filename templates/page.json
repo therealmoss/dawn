@@ -1,11 +1,5 @@
 {
   "sections": {
-    "1639243302f31c6851": {
-      "type": "enorm-slider-13793",
-      "settings": {
-        "enorm_width_slider_13793": 1200
-      }
-    },
     "main": {
       "type": "main-page",
       "settings": {
@@ -13,7 +7,6 @@
     }
   },
   "order": [
-    "1639243302f31c6851",
     "main"
   ]
 }
