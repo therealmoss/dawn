@@ -4,9 +4,16 @@
       "type": "main-page",
       "settings": {
       }
+    },
+    "163924332840ec6a1f": {
+      "type": "enorm-slider-13793",
+      "settings": {
+        "enorm_width_slider_13793": 1200
+      }
     }
   },
   "order": [
-    "main"
+    "main",
+    "163924332840ec6a1f"
   ]
 }
