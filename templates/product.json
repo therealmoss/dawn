@@ -38,19 +38,11 @@
           "settings": {
           }
         },
-        "5cb0993e-06ac-443b-b304-d786b3076931": {
-          "type": "collapsible_tab",
-          "settings": {
-            "heading": "FAQs",
-            "content": "<p>This<\/p><p>That<\/p><p>Something<\/p><p>Another thing<\/p>",
-            "page": "",
-            "icon": "box"
-          }
-        },
         "b1e18760-49b2-4c8b-a8f2-a32e0b04bb9a": {
           "type": "order-form",
           "settings": {
-            "heading": "Order form"
+            "heading": "Order form",
+            "caption": "Tell us any important details about your order."
           }
         },
         "share": {
@@ -67,7 +59,6 @@
         "price",
         "variant_picker",
         "description",
-        "5cb0993e-06ac-443b-b304-d786b3076931",
         "b1e18760-49b2-4c8b-a8f2-a32e0b04bb9a",
         "share"
       ],

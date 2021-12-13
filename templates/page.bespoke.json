@@ -8,13 +8,21 @@
     "163939419993115e12": {
       "type": "slideshow",
       "settings": {
+        "caption": "",
         "image": "shopify:\/\/shop_images\/Unknown-16.jpg",
         "image_2": "shopify:\/\/shop_images\/freshly-baked-lemon-cake-with-powdered-sugar.jpg"
+      }
+    },
+    "1639420917cf8cf53e": {
+      "type": "order-form",
+      "settings": {
+        "heading": "Order Form"
       }
     }
   },
   "order": [
     "main",
-    "163939419993115e12"
+    "163939419993115e12",
+    "1639420917cf8cf53e"
   ]
 }
