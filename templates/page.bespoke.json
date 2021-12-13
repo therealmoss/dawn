@@ -10,10 +10,28 @@
       "settings": {
         "heading": "Contact form"
       }
+    },
+    "163939419993115e12": {
+      "type": "slideshow",
+      "blocks": {
+        "799088dc-d657-4e39-874f-59f4d616afc9": {
+          "type": "slide",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/FFB-whiskbrush-2.png"
+          }
+        }
+      },
+      "block_order": [
+        "799088dc-d657-4e39-874f-59f4d616afc9"
+      ],
+      "settings": {
+        "title": ""
+      }
     }
   },
   "order": [
     "main",
-    "1639243404a212b16e"
+    "1639243404a212b16e",
+    "163939419993115e12"
   ]
 }

@@ -1,17 +1,32 @@
-{{ 'slideshow.scss' | asset_url | stylesheet_tag }}
+{{ 'slideshow.css' | asset_url | stylesheet_tag }}
 
-<div id="slider" class="slider">
-  <div class="wrapper">
-    <div id="slides" class="slides">
-      <span class="slide">Slide 1</span>
-      <span class="slide">Slide 2</span>
-      <span class="slide">Slide 3</span>
-      <span class="slide">Slide 4</span>
-      <span class="slide">Slide 5</span>
+<script src="{{ 'slideshow.js' | asset_url }}" defer="defer"></script>
+
+<div class="page-width page-width--narrow spaced-section">
+  <div class="slide-wrapper">
+    <div id="arrow-left" class="arrow"></div>
+  
+    <div id="slider">
+      <div class="slide slide3">
+        <div class="slide-content">
+          <span class="imgtop">Image 1</span>
+        </div>
+      </div>
+  
+      <div class="slide slide1">
+        <div class="slide-content">
+          <span class="imgtop">Image 2</span>
+        </div>
+      </div>
+  
+      <div class="slide slide2">
+        <div class="slide-content">
+          <span class="imgtop">Image 3</span>
+        </div>
+      </div>
     </div>
+    <div id="arrow-right" class="arrow"> </div>
   </div>
-  <a id="prev" class="control prev"></a>
-  <a id="next" class="control next"></a>
 </div>
 
 {% schema %}
