@@ -4,27 +4,22 @@
 
 <div class="page-width page-width--narrow spaced-section">
   <div class="slide-wrapper">
-    <div id="arrow-left" class="arrow"></div>
-  
-    <div id="slider">
-      <div class="slide slide3">
-        <div class="slide-content">
-          <span class="imgtop">Image 1</span>
-        </div>
-      </div>
+    <div id="arrow-left" class="arrow"> </div>
   
       <div class="slide slide1">
         <div class="slide-content">
-          <span class="imgtop">Image 2</span>
+          <span class="imgtop" style="background-image: url('{{ section.settings.image | img_url: '1500x' }}')">
+            Image 1</span>
         </div>
       </div>
   
       <div class="slide slide2">
         <div class="slide-content">
-          <span class="imgtop">Image 3</span>
+          <span class="imgtop" style="background-image: url('{{ section.settings.image_2 | img_url: '1500x' }}')">
+            Image 2</span>
         </div>
       </div>
-    </div>
+
     <div id="arrow-right" class="arrow"> </div>
   </div>
 </div>
@@ -34,7 +29,6 @@
   "name": "Slideshow",
   "tag": "section",
   "class": "slideshow",
-  "max_blocks": 5,
   "settings": [
     {
       "type": "text",
@@ -42,23 +36,22 @@
       "label": "Slideshow"
     }
   ],
+  "settings": [
+    {
+      "type": "image_picker",
+      "id": "image",
+      "label": "t:sections.image-banner.settings.image.label"
+    },
+    {
+      "type": "image_picker",
+      "id": "image_2",
+      "label": "t:sections.image-banner.settings.image_2.label"
+    }
+  ],
   "presets": [
     {
       "name": "Slideshow",
       "category": "Images"
-    }
-  ],
-  "blocks": [
-    {
-       "name": "Slide",
-       "type": "slide",
-       "settings": [
-         {
-           "type": "image_picker",
-           "id": "image",
-           "label": "Image"
-         }
-       ]
     }
   ]
 }

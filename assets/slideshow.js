@@ -40,5 +40,3 @@ arrowRight.addEventListener("click", function () {
   slideRight();
 });
 init();
-
-console.log("hello");
