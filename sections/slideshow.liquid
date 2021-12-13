@@ -1,0 +1,74 @@
+{{ 'slideshow.scss' | asset_url | stylesheet_tag }}
+
+<div id="slider" class="slider">
+  <div class="wrapper">
+    <div id="slides" class="slides">
+      <span class="slide">Slide 1</span>
+      <span class="slide">Slide 2</span>
+      <span class="slide">Slide 3</span>
+      <span class="slide">Slide 4</span>
+      <span class="slide">Slide 5</span>
+    </div>
+  </div>
+  <a id="prev" class="control prev"></a>
+  <a id="next" class="control next"></a>
+</div>
+
+{% schema %}
+{
+  "name": "Slideshow",
+  "tag": "section",
+  "class": "slideshow",
+  "max_blocks": 5,
+  "settings": [
+    {
+      "type": "text",
+      "id": "title",
+      "label": "Slideshow"
+    }
+  ],
+  "blocks": [
+     {
+       "name": "Slide",
+       "type": "slide",
+       "settings": [
+         {
+           "type": "image_picker",
+           "id": "image",
+           "label": "Image"
+         }
+       ]
+     }
+   ],
+  "default": {
+    "settings": {
+      "title": "Slideshow"
+    },
+    "blocks": [
+      {
+        "type": "slide"
+      },
+      {
+        "type": "slide"
+      }
+    ],
+  "presets": [
+      {
+        "name": "Slideshow",
+        "settings": {
+           "title": "Slideshow"
+         },
+        "blocks": [
+          {
+            "type": "slide"
+          },
+          {
+            "type": "slide"
+          }
+        ]
+      }
+    ]
+  }
+}
+{% endschema %}
+
