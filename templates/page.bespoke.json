@@ -9,14 +9,15 @@
       "type": "slideshow",
       "settings": {
         "caption": "",
-        "image": "shopify:\/\/shop_images\/Unknown-16.jpg",
-        "image_2": "shopify:\/\/shop_images\/freshly-baked-lemon-cake-with-powdered-sugar.jpg"
+        "image": "shopify:\/\/shop_images\/Unknown-2.jpg",
+        "image_2": "shopify:\/\/shop_images\/Unknown-15.jpg"
       }
     },
     "1639420917cf8cf53e": {
       "type": "order-form",
       "settings": {
-        "heading": "Order Form"
+        "heading": "Order Form",
+        "caption": "Tell us any important details about your order."
       }
     }
   },
