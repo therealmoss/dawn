@@ -45,7 +45,7 @@
           "type": "column",
           "settings": {
             "title": "North London based",
-            "text": "<p>Collection and delivery<\/p>"
+            "text": "<p>Collection and delivery available<\/p>"
           }
         },
         "1631137956f5d78117-1": {
@@ -65,7 +65,7 @@
         "6dcb9b29-f1ea-4a60-a5e5-936c1a42ce44": {
           "type": "column",
           "settings": {
-            "title": "Bespoke bakes",
+            "title": "Bespoke and unique cakes",
             "text": "<p>Make your cake dreams a reality<\/p>"
           }
         }
