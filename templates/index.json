@@ -160,8 +160,15 @@
         "a3abca34-db3d-41af-b730-da09b0446f88": {
           "type": "column",
           "settings": {
-            "title": "Stuart",
-            "text": "<p>The best cookie I've ever had.<\/p>"
+            "title": "Macy",
+            "text": "<p>Those cookies are the best any of us have  ever had.<\/p>"
+          }
+        },
+        "b6496dc9-8eaa-40e7-892e-f05f1f54d837": {
+          "type": "column",
+          "settings": {
+            "title": "Column",
+            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>"
           }
         }
       },
@@ -170,7 +177,8 @@
         "16311412548e411241-1",
         "16311412548e411241-2",
         "6c307696-e2b8-4f9b-b5d9-e75a147767d7",
-        "a3abca34-db3d-41af-b730-da09b0446f88"
+        "a3abca34-db3d-41af-b730-da09b0446f88",
+        "b6496dc9-8eaa-40e7-892e-f05f1f54d837"
       ],
       "settings": {
         "title": "Customer reviews",
