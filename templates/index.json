@@ -156,13 +156,21 @@
             "title": "Roxanne",
             "text": "<p>I just want to scream your name from the rooftops because you are so worth it. <\/p>"
           }
+        },
+        "a3abca34-db3d-41af-b730-da09b0446f88": {
+          "type": "column",
+          "settings": {
+            "title": "Stuart",
+            "text": "<p>The best cookie I've ever had.<\/p>"
+          }
         }
       },
       "block_order": [
         "16311412548e411241-0",
         "16311412548e411241-1",
         "16311412548e411241-2",
-        "6c307696-e2b8-4f9b-b5d9-e75a147767d7"
+        "6c307696-e2b8-4f9b-b5d9-e75a147767d7",
+        "a3abca34-db3d-41af-b730-da09b0446f88"
       ],
       "settings": {
         "title": "Customer reviews",
