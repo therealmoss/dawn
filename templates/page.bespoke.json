@@ -20,7 +20,7 @@
       "type": "order-form",
       "settings": {
         "heading": "Order Form",
-        "caption": "Tell us any important details about your order."
+        "caption": "Tell us any important details about your order. Please include cake flavour, amount of servings required, any specific colours and themes."
       }
     }
   },
