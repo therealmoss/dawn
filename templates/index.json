@@ -149,12 +149,20 @@
             "title": "Ashleigh",
             "text": "<p>\"I couldn't fault this cake even if I tried; it was an absolute masterpiece.\"<\/p>"
           }
+        },
+        "6c307696-e2b8-4f9b-b5d9-e75a147767d7": {
+          "type": "column",
+          "settings": {
+            "title": "Roxanne",
+            "text": "<p>I just want to scream your name from the rooftops because you are so worth it. <\/p>"
+          }
         }
       },
       "block_order": [
         "16311412548e411241-0",
         "16311412548e411241-1",
-        "16311412548e411241-2"
+        "16311412548e411241-2",
+        "6c307696-e2b8-4f9b-b5d9-e75a147767d7"
       ],
       "settings": {
         "title": "Customer reviews",
