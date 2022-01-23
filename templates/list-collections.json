@@ -4,7 +4,7 @@
       "type": "main-list-collections",
       "settings": {
         "title": "Cakes & more",
-        "sort": "alphabetical",
+        "sort": "alphabetical_reversed",
         "image_ratio": "square",
         "color_scheme": "background-1",
         "image_padding": false
