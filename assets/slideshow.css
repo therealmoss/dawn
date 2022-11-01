@@ -63,12 +63,12 @@
 @media only screen and (max-width: 990px) {
   #arrow-left {
     border-width: 20px 30px 20px 0;
-    border-color: transparent #fff transparent #fff;
+    border-color: transparent #000 transparent #000;
     margin-left: 5vw;
   }
   #arrow-right {
     border-width: 20px 0 20px 30px;
-    border-color: transparent #fff transparent #fff;
+    border-color: transparent #000 transparent #000;
     margin-right: 5vw;
   }
   .arrow {
