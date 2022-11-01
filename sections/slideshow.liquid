@@ -46,6 +46,46 @@
         </div>
       {% endif %}
 
+      {% if section.settings.image_6 != blank %}
+        <div class="slide slide5">
+          <div class="slide-content">
+            <span class="imgtop" style="background-image: url('{{ section.settings.image_6 | img_url: '1500x' }}')"></span>
+          </div>
+        </div>
+      {% endif %}
+
+      {% if section.settings.image_7 != blank %}
+        <div class="slide slide5">
+          <div class="slide-content">
+            <span class="imgtop" style="background-image: url('{{ section.settings.image_7 | img_url: '1500x' }}')"></span>
+          </div>
+        </div>
+      {% endif %}
+
+      {% if section.settings.image_8 != blank %}
+        <div class="slide slide5">
+          <div class="slide-content">
+            <span class="imgtop" style="background-image: url('{{ section.settings.image_8 | img_url: '1500x' }}')"></span>
+          </div>
+        </div>
+      {% endif %}
+
+      {% if section.settings.image_9 != blank %}
+        <div class="slide slide5">
+          <div class="slide-content">
+            <span class="imgtop" style="background-image: url('{{ section.settings.image_9 | img_url: '1500x' }}')"></span>
+          </div>
+        </div>
+      {% endif %}
+
+      {% if section.settings.image_10 != blank %}
+        <div class="slide slide5">
+          <div class="slide-content">
+            <span class="imgtop" style="background-image: url('{{ section.settings.image_10 | img_url: '1500x' }}')"></span>
+          </div>
+        </div>
+      {% endif %}
+
     <div id="arrow-right" class="arrow"> </div>
   </div>
   <h3>{{ section.settings.caption }}</h3>
@@ -93,6 +133,31 @@
       "type": "image_picker",
       "id": "image_5",
       "label": "Image 5"
+    },
+    {
+      "type": "image_picker",
+      "id": "image_6",
+      "label": "Image 6"
+    },
+    {
+      "type": "image_picker",
+      "id": "image_7",
+      "label": "Image 7"
+    },
+    {
+      "type": "image_picker",
+      "id": "image_8",
+      "label": "Image 8"
+    },
+    {
+      "type": "image_picker",
+      "id": "image_9",
+      "label": "Image 9"
+    },
+    {
+      "type": "image_picker",
+      "id": "image_10",
+      "label": "Image 10"
     }
   ],
   "presets": [
