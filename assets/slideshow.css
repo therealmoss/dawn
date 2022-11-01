@@ -10,7 +10,7 @@
   position: relative;
 }
 .slide {
-  background-size: cover;
+  background-size: contain;
   background-position: center;
   background-repeat: no-repeat;
 }
@@ -37,14 +37,14 @@
 }
 #arrow-left {
   border-width: 30px 40px 30px 0;
-  border-color: transparent #fff transparent #fff;
+  border-color: transparent #000 transparent #000;
   left: 0;
   margin-left: 30px;
   opacity: 0.5;
 }
 #arrow-right {
   border-width: 30px 0 30px 40px;
-  border-color: transparent #fff transparent #fff;
+  border-color: transparent #000 transparent #000;
   right: 0;
   margin-right: 30px;
   opacity: 0.5;
@@ -56,7 +56,8 @@
 }
 .imgtop{
    background-position: center;
-   background-size: cover;
+   background-size: contain;
+   background-repeat: no-repeat;
    height: 480px;
 }
 @media only screen and (max-width: 990px) {
