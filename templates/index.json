@@ -13,7 +13,7 @@
         "70194d5c-e6b9-41df-92eb-a18173015f09": {
           "type": "buttons",
           "settings": {
-            "button_label_1": "Shop now",
+            "button_label_1": "Shop Now",
             "button_link_1": "shopify:\/\/collections",
             "button_style_secondary_1": false,
             "button_label_2": "",
@@ -170,6 +170,13 @@
             "title": "Fern",
             "text": "<p>\"Insane. Normally it's style over substance so it's surprising when cakes that look this good actually taste good.\" <\/p>"
           }
+        },
+        "a9115eea-c0b0-4300-a2b9-4800328b1b9c": {
+          "type": "column",
+          "settings": {
+            "title": "Caz",
+            "text": "<p>Cake went down a storm, I was lucky to get a wafer thin-slice. It was delicious and looked beautiful.<\/p>"
+          }
         }
       },
       "block_order": [
@@ -178,7 +185,8 @@
         "16311412548e411241-2",
         "6c307696-e2b8-4f9b-b5d9-e75a147767d7",
         "a3abca34-db3d-41af-b730-da09b0446f88",
-        "b6496dc9-8eaa-40e7-892e-f05f1f54d837"
+        "b6496dc9-8eaa-40e7-892e-f05f1f54d837",
+        "a9115eea-c0b0-4300-a2b9-4800328b1b9c"
       ],
       "settings": {
         "title": "Customer reviews",
