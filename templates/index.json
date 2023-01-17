@@ -175,7 +175,14 @@
           "type": "column",
           "settings": {
             "title": "Caz",
-            "text": "<p>Cake went down a storm, I was lucky to get a wafer thin-slice. It was delicious and looked beautiful.<\/p>"
+            "text": "<p>\"Cake went down a storm, I was lucky to get a wafer thin-slice. It was delicious and looked beautiful.\"<\/p>"
+          }
+        },
+        "016100de-4145-4b84-b56b-9df84775ee23": {
+          "type": "column",
+          "settings": {
+            "title": "Ellie",
+            "text": "<p>\"I really can't tell you how amazing that chocolate cake is. Honestly perfection in simplicity. It's taking all my willpower not to eat it all.\"<\/p>"
           }
         }
       },
@@ -186,7 +193,8 @@
         "6c307696-e2b8-4f9b-b5d9-e75a147767d7",
         "a3abca34-db3d-41af-b730-da09b0446f88",
         "b6496dc9-8eaa-40e7-892e-f05f1f54d837",
-        "a9115eea-c0b0-4300-a2b9-4800328b1b9c"
+        "a9115eea-c0b0-4300-a2b9-4800328b1b9c",
+        "016100de-4145-4b84-b56b-9df84775ee23"
       ],
       "settings": {
         "title": "Customer reviews",
