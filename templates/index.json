@@ -1,3 +1,12 @@
+/*
+* ------------------------------------------------------------
+* IMPORTANT: The contents of this file are auto-generated.
+*
+* This file may be updated by the Shopify admin theme editor
+* or related systems. Please exercise caution as any changes
+* made to this file may be overwritten.
+* ------------------------------------------------------------
+*/
 {
   "sections": {
     "1631140907b4e5bdc5": {
@@ -6,7 +15,7 @@
         "1631140907b4e5bdc5-0": {
           "type": "heading",
           "settings": {
-            "heading": "I hope you like cake",
+            "heading": "Let's Get Cosy",
             "heading_size": "medium"
           }
         },
@@ -27,7 +36,7 @@
         "70194d5c-e6b9-41df-92eb-a18173015f09"
       ],
       "settings": {
-        "image_2": "shopify:\/\/shop_images\/Screenshot2023-03-13at15.11.34.png",
+        "image_2": "shopify:\/\/shop_images\/IMG_4718_0ef6c8e6-4d6f-4e20-ac5c-13d5e91ba48a.webp",
         "image_height": "medium",
         "adapt_height_first_image": false,
         "desktop_text_box_position": "center",
