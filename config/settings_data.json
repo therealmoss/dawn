@@ -1,3 +1,12 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
 {
   "current": {
     "colors_solid_button_labels": "#ffffff",
@@ -11,11 +20,12 @@
     "type_body_font": "assistant_n4",
     "sale_badge_color_scheme": "accent-1",
     "accent_icons": "accent-1",
-    "social_facebook_link": "https:\/\/facebook.com\/theflourbaby",
-    "social_instagram_link": "https:\/\/www.instagram.com\/theflourbaby\/",
-    "social_tiktok_link": "https:\/\/tiktok.com\/@theflourbaby",
+    "social_facebook_link": "https://facebook.com/theflourbaby",
+    "social_instagram_link": "https://www.instagram.com/theflourbaby/",
+    "social_tiktok_link": "https://tiktok.com/@theflourbaby",
+    "social_vimeo_link": "",
     "predictive_search_enabled": false,
-    "favicon": "shopify:\/\/shop_images\/FFB-whiskbrush-2.png",
+    "favicon": "shopify://shop_images/FFB-whiskbrush-2.png",
     "checkout_accent_color": "#db90b2",
     "checkout_button_color": "#aadfde",
     "sections": {
@@ -35,14 +45,13 @@
         "block_order": [
           "announcement-bar-0"
         ],
-        "settings": {
-        }
+        "settings": {}
       },
       "header": {
         "type": "header",
         "settings": {
           "color_scheme": "background-1",
-          "logo": "shopify:\/\/shop_images\/FBB-wordmark-G.png",
+          "logo": "shopify://shop_images/FBB-wordmark-G.png",
           "logo_width": 200,
           "logo_position": "top-center",
           "menu": "main-menu",
@@ -57,7 +66,7 @@
             "type": "text",
             "settings": {
               "heading": "Flour Baby Bakery",
-              "subtext": "<p>See our socials below, we'd love if you could leave a review!<\/p>"
+              "subtext": "<p>See our socials below, we'd love if you could leave a review!</p>"
             }
           },
           "footer-0": {
@@ -72,6 +81,7 @@
           "footer-1",
           "footer-0"
         ],
+        "custom_css": [],
         "settings": {
           "color_scheme": "inverse",
           "newsletter_enable": true,
@@ -83,9 +93,7 @@
         }
       }
     },
-    "content_for_index": [
-
-    ]
+    "content_for_index": []
   },
   "presets": {
     "Default": {
@@ -112,8 +120,7 @@
           "block_order": [
             "announcement-bar-0"
           ],
-          "settings": {
-          }
+          "settings": {}
         }
       }
     },
@@ -133,13 +140,11 @@
           "blocks": {
             "menu": {
               "type": "link_list",
-              "settings": {
-              }
+              "settings": {}
             },
             "text": {
               "type": "text",
-              "settings": {
-              }
+              "settings": {}
             }
           },
           "block_order": [
