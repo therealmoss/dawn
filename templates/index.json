@@ -22,7 +22,7 @@
         "70194d5c-e6b9-41df-92eb-a18173015f09": {
           "type": "buttons",
           "settings": {
-            "button_label_1": "MONTHLY SELECTION BOXES HAVE LANDED",
+            "button_label_1": "'Tis the season!",
             "button_link_1": "shopify://collections",
             "button_style_secondary_1": false,
             "button_label_2": "",
@@ -36,8 +36,7 @@
         "70194d5c-e6b9-41df-92eb-a18173015f09"
       ],
       "settings": {
-        "image": "shopify://shop_images/IMG_7958.jpg",
-        "image_2": "shopify://shop_images/IMG_6881.jpg",
+        "image": "shopify://shop_images/Screenshot2025-08-14at11.31.13.png",
         "image_height": "medium",
         "adapt_height_first_image": false,
         "desktop_text_box_position": "center",
