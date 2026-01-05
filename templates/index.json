@@ -54,7 +54,7 @@
           "type": "column",
           "settings": {
             "title": "Clients we have baked for",
-            "text": "<p>NETFLIX, Peppermayo, TALA Activewear, LIDL, Influencer, Burger King, ripple+</p>"
+            "text": "<p>NETFLIX, Peppermayo, TALA, LIDL, Influencer, Burger King, ripple+</p>"
           }
         },
         "1631137956f5d78117-1": {
@@ -75,7 +75,7 @@
           "type": "column",
           "settings": {
             "title": "North London based",
-            "text": "<p>Collection and delivery options.</p>"
+            "text": "<p>Collection and delivery options available.</p>"
           }
         }
       },
