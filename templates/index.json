@@ -22,7 +22,7 @@
         "70194d5c-e6b9-41df-92eb-a18173015f09": {
           "type": "buttons",
           "settings": {
-            "button_label_1": "'Tis the season!",
+            "button_label_1": "Shop cakes, cookies and more",
             "button_link_1": "shopify://collections",
             "button_style_secondary_1": false,
             "button_label_2": "",
