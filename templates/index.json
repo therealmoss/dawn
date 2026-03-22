@@ -22,8 +22,8 @@
         "70194d5c-e6b9-41df-92eb-a18173015f09": {
           "type": "buttons",
           "settings": {
-            "button_label_1": "Shop cakes, cookies and more",
-            "button_link_1": "shopify://collections",
+            "button_label_1": "Easter Postal Boxes Now Live",
+            "button_link_1": "shopify://products/monthly-selection-box",
             "button_style_secondary_1": false,
             "button_label_2": "",
             "button_link_2": "",
@@ -36,7 +36,7 @@
         "70194d5c-e6b9-41df-92eb-a18173015f09"
       ],
       "settings": {
-        "image": "shopify://shop_images/Screenshot2025-08-14at11.31.13.png",
+        "image": "shopify://shop_images/Screenshot2023-03-13at14.39.22.png",
         "image_height": "medium",
         "adapt_height_first_image": false,
         "desktop_text_box_position": "center",
