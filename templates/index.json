@@ -15,15 +15,15 @@
         "1631140907b4e5bdc5-0": {
           "type": "heading",
           "settings": {
-            "heading": "Fun, Flavour, Flair",
+            "heading": "We're on our summer holidays!",
             "heading_size": "medium"
           }
         },
         "70194d5c-e6b9-41df-92eb-a18173015f09": {
           "type": "buttons",
           "settings": {
-            "button_label_1": "Shop Now",
-            "button_link_1": "shopify://collections",
+            "button_label_1": "We're currently closed and not taking orders for July and August, we'll be back in the kitchen from Autumn. See you soon!",
+            "button_link_1": "",
             "button_style_secondary_1": false,
             "button_label_2": "",
             "button_link_2": "",
